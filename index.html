@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="estils/estiloIndex.css">
@@ -11,16 +12,18 @@
    
    <section class="indetification">
         <label >Usuario</label>
-        <input type="text" id="Name" name="Name" />
+        <input type="text" id="username" name="username" placeholder="Nombre de usuario"/>
         <label >Contraseña</label>
-        <input type="text" id="Name" name="Name" />
+        <input type="password" id="password" name="password" placeholder="Contraseña"/>
+        <button type="submit">Acceder</button>
    </section>
    
    <section class="categories">
-        <div class="title">
+        <hgroup class="title">
             <h2>Categorias</h2>
-        </div>
-        <div class="content">
+        </hgroup>
+
+        <nav class="content">
             <a href="pagina1.html">
                 <img src="imatges/bricolaje.bmp">
                 <div id="subText">Bricolaje</div>
@@ -37,10 +40,19 @@
                 <img src="https://i.ebayimg.com/thumbs/images/g/rncAAOSwtnpgAHLm/s-l225.webp">
                 <div id="subtext_catg">Accesorios de coche</div>
             </a>
-        </div>
+        </nav>
         
     </section>
-    <section class="publitity">
 
+    <section class="top5_products">
+        <hgroup>TOP 5 Mejores compras</hgroup>
+        <ol>
+            <li>Lorem</li>
+            <li>ipsum </li>
+            <li>dolor </li>
+            <li>sit </li>
+            <li>amet</li>
+        </ol>
     </section>
+    <footer></footer>
 </body>
