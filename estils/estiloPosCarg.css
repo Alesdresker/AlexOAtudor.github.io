@@ -26,3 +26,14 @@ a#titlea h3{
 body{
     background-color: aliceblue;
 }
+ hgroup{
+    text-align: center;
+}
+body header h3{
+    text-align: center;
+    
+}
+body section.info{
+    margin-left: 25%;
+    margin-right: 25%;
+}
