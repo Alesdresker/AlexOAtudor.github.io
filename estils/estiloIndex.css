@@ -8,8 +8,6 @@ a:visited{
 
 a#titlea{
     text-decoration: none;
-    background-color: mediumseagreen;
-    border: 0%;
 }
 
 a#titlea h1{
@@ -28,7 +26,6 @@ a#titlea h3{
 }
 
 body{
-    
     background-color: aliceblue;
 }
 
@@ -36,6 +33,9 @@ section.indetification {
    position:relative;
    width: 30%;
    left: 70%;
+}
+section.indetification  input,button{
+    left: 30%;
 }
 
 section.categories{
@@ -51,7 +51,7 @@ section.categories nav{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-border: 1px;}
+border: 10px;}
 
 section.categories nav a {
 margin: 5px;
@@ -73,7 +73,7 @@ SECTION.top5_products{
     justify-content: space-around;
 } 
 footer{
-    position: absolute; /
+    position: absolute; /* puede ser fixed según se desee*/
     bottom: 1%;
     left: 1%;
 }
